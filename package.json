@@ -1,8 +1,8 @@
 {
-  "name": "insight-digibyte-ui",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the digibyte network and build your own services with it.",
+  "name": "insight-auroracoin-ui",
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the auroracoin network and build your own services with it.",
   "version": "0.4.7",
-  "repository": "git://github.com/digibyte/insight-digibyte-ui.git",
+  "repository": "git://github.com/LTEX-DEV/insight-auroracoin-ui-2019.git",
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -28,16 +28,16 @@
   "bugs": {
     "url": "https://github.com/bitpay/insight-ui/issues"
   },
-  "homepage": "https://github.com/digibyte/insight-digibyte-ui",
+  "homepage": "https://github.com/LTEX-DEV/insight-auroracoin-ui-2019",
   "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
     "blockexplorer",
-    "digibyte",
+    "auroracoin",
     "front-end"
   ],
-  "bitcoreNode": "digibyte-node",
+  "bitcoreNode": "auroracoin-node",
   "dependencies": {},
   "devDependencies": {
     "bower": "~1.2.8",

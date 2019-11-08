@@ -8,7 +8,7 @@ angular.module('insight.system').controller('HeaderController',
       factor: 1,
       usdRate: 0,
       btcRate: 0,
-      symbol: 'DGB'
+      symbol: 'AUR'
     };
 
     $scope.menu = [{

@@ -23,16 +23,16 @@ msgstr "404 Página no encontrada :("
 #: public/views/index.html
 msgid ""
 "<strong>DigiExplorer</strong>  is an <a href=\"http://digiexplorer.info.is/\" target="
-"\"_blank\">open-source DigiByte blockchain explorer</a> with complete REST "
+"\"_blank\">open-source Auroracoin blockchain explorer</a> with complete REST "
 "and websocket APIs that can be used for writing web wallets and other apps  "
-"that need more advanced blockchain queries than provided by digibyted RPC.  "
+"that need more advanced blockchain queries than provided by auroracoind RPC.  "
 "Check out the <a href=\"https://github.com/bitpay/insight-ui\" target=\"_blank"
 "\">source code</a>."
 msgstr ""
 "<strong>DigiExplorer</strong>  es un <a href=\"http://digiexplorer.info.is/\" target="
-"\"_blank\">explorador de bloques de DigiByte open-source</a> con un completo "
+"\"_blank\">explorador de bloques de Auroracoin open-source</a> con un completo "
 "conjunto de REST y APIs de websockets que pueden ser usadas para escribir "
-"monederos de DigiBytes y otras aplicaciones que requieran consultar un "
+"monederos de Auroracoins y otras aplicaciones que requieran consultar un "
 "explorador de bloques.  Obtén el código en <a href=\"http://github.com/"
 "bitpay/insight\" target=\"_blank\">el repositorio abierto de Github</a>."
 
@@ -68,8 +68,8 @@ msgid "Best Block"
 msgstr "Mejor Bloque"
 
 #: public/views/status.html
-msgid "DigiByte node information"
-msgstr "Información del nodo DigiByte"
+msgid "Auroracoin node information"
+msgstr "Información del nodo Auroracoin"
 
 #: public/views/block.html
 msgid "Block"
@@ -90,11 +90,11 @@ msgstr "Bytes Serializados"
 
 #: public/views/includes/connection.html
 msgid ""
-"Can't connect to digibyted to get live updates from the p2p network. (Tried "
-"connecting to digibyted at {{host}}:{{port}} and failed.)"
+"Can't connect to auroracoind to get live updates from the p2p network. (Tried "
+"connecting to auroracoind at {{host}}:{{port}} and failed.)"
 msgstr ""
-"No se pudo conectar a digibyted para obtener actualizaciones en vivo de la "
-"red p2p. (Se intentó conectar a digibyted de {{host}}:{{port}} y falló.)"
+"No se pudo conectar a auroracoind para obtener actualizaciones en vivo de la "
+"red p2p. (Se intentó conectar a auroracoind de {{host}}:{{port}} y falló.)"
 
 #: public/views/includes/connection.html
 msgid "Can't connect to insight server. Attempting to reconnect..."
@@ -195,8 +195,8 @@ msgid "Last Block"
 msgstr "Último Bloque"
 
 #: public/views/status.html
-msgid "Last Block Hash (DigiByted)"
-msgstr "Último Bloque Hash (DigiByted)"
+msgid "Last Block Hash (Auroracoind)"
+msgstr "Último Bloque Hash (Auroracoind)"
 
 #: public/views/index.html
 msgid "Latest Blocks"

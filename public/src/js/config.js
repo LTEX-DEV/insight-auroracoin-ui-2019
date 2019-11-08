@@ -5,7 +5,7 @@ angular.module('insight').config(function($routeProvider) {
   $routeProvider.
     when('/block/:blockHash', {
       templateUrl: 'views/block.html',
-      title: 'DigiByte Block '
+      title: 'Auroracoin Block '
     }).
     when('/block-index/:blockHeight', {
       controller: 'BlocksController',
@@ -17,7 +17,7 @@ angular.module('insight').config(function($routeProvider) {
     }).
     when('/tx/:txId/:v_type?/:v_index?', {
       templateUrl: 'views/transaction.html',
-      title: 'DigiByte Transaction '
+      title: 'Auroracoin Transaction '
     }).
     when('/', {
       templateUrl: 'views/index.html',
@@ -25,15 +25,15 @@ angular.module('insight').config(function($routeProvider) {
     }).
     when('/blocks', {
       templateUrl: 'views/block_list.html',
-      title: 'DigiByte Blocks solved Today'
+      title: 'Auroracoin Blocks solved Today'
     }).
     when('/blocks-date/:blockDate/:startTimestamp?', {
       templateUrl: 'views/block_list.html',
-      title: 'DigiByte Blocks solved '
+      title: 'Auroracoin Blocks solved '
     }).
     when('/address/:addrStr', {
       templateUrl: 'views/address.html',
-      title: 'DigiByte Address '
+      title: 'Auroracoin Address '
     }).
     when('/status', {
       templateUrl: 'views/status.html',

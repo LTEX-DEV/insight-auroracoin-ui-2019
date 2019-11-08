@@ -1,22 +1,22 @@
 # Insight UI
 
-A DigiByte blockchain explorer web application service for [DigiByte Node](https://github.com/digibyte/digibyte-node) using the [Insight API](https://github.com/digibyte/insight-digibyte-api).
+A Auroracoin blockchain explorer web application service for [Auroracoin Node](https://github.com/auroracoin/auroracoin-node) using the [Insight API](https://github.com/auroracoin/insight-auroracoin-api).
 
 ## Quick Start
 
-Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Litecore](https://github.com/digibyte/digibyte-lib).
+Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Litecore](https://github.com/auroracoin/auroracoin-lib).
 
 ## Getting Started
 
 To manually install all of the necessary components, you can run these commands:
 
 ```bash
-npm install -g digibyte-node
-digibyte-node create mynode
+npm install -g auroracoin-node
+auroracoin-node create mynode
 cd mynode
-digibyte-node install insight-digibyte-api
-digibyte-node install insight-digibyte-ui
-digibyte-node start
+auroracoin-node install insight-auroracoin-api
+auroracoin-node install insight-auroracoin-ui
+auroracoin-node start
 ```
 
 Open a web browser to `http://localhost:3001/insight/`
@@ -70,11 +70,11 @@ compile***.
 
 ## Note
 
-For more details about the [Insight API](https://github.com/digibyte/insight-digibyte-api) configuration and end-points, go to [Insight API GitHub repository](https://github.com/digibyte/insight-digibyte-api).
+For more details about the [Insight API](https://github.com/auroracoin/insight-auroracoin-api) configuration and end-points, go to [Insight API GitHub repository](https://github.com/auroracoin/insight-auroracoin-api).
 
 ## Contribute
 
-Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/digibyte/insight-digibyte-ui).
+Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/auroracoin/insight-auroracoin-ui).
 
 
 ## License
