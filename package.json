@@ -1,8 +1,30 @@
 {
-  "name": "insight-auroracoin-ui",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the auroracoin network and build your own services with it.",
-  "version": "0.4.7",
-  "repository": "git://github.com/LTEX-DEV/insight-auroracoin-ui-2019.git",
+  "_from": "git+https://git@github.com/LTEX-DEV/insight-auroracoin-ui-2019.git",
+  "_id": "insight-auroracoin-ui@0.4.7",
+  "_inBundle": false,
+  "_integrity": "sha1-1p0QIMJZ8tG2TqdRqCSuHbNQvv0=",
+  "_location": "/insight-auroracoin-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://git@github.com/LTEX-DEV/insight-auroracoin-ui-2019.git",
+    "rawSpec": "git+https://git@github.com/LTEX-DEV/insight-auroracoin-ui-2019.git",
+    "saveSpec": "git+https://git@github.com/LTEX-DEV/insight-auroracoin-ui-2019.git",
+    "fetchSpec": "https://git@github.com/LTEX-DEV/insight-auroracoin-ui-2019.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://git@github.com/LTEX-DEV/insight-auroracoin-ui-2019.git#b9edc28935acc44c4c0dd9882dd28a3592da7996",
+  "_spec": "git+https://git@github.com/LTEX-DEV/insight-auroracoin-ui-2019.git",
+  "_where": "/Users/pravin/insight",
+  "bitcoreNode": "auroracoin-node",
+  "bugs": {
+    "url": "https://github.com/bitpay/insight-ui/issues"
+  },
+  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -25,11 +47,23 @@
       "email": "bechilandia@gmail.com"
     }
   ],
-  "bugs": {
-    "url": "https://github.com/bitpay/insight-ui/issues"
+  "dependencies": {},
+  "deprecated": false,
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the auroracoin network and build your own services with it.",
+  "devDependencies": {
+    "bower": "~1.2.8",
+    "grunt": "~0.4.2",
+    "grunt-angular-gettext": "^0.2.15",
+    "grunt-cli": "~0.1.11",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-contrib-watch": "*",
+    "grunt-css": "~0.5.4",
+    "grunt-macreload": "*",
+    "grunt-markdown": "~0.5.0"
   },
   "homepage": "https://github.com/LTEX-DEV/insight-auroracoin-ui-2019",
-  "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
@@ -37,19 +71,11 @@
     "auroracoin",
     "front-end"
   ],
-  "bitcoreNode": "auroracoin-node",
-  "dependencies": {},
-  "devDependencies": {
-    "bower": "~1.2.8",
-    "grunt": "~0.4.2",
-    "grunt-cli": "~0.1.11",
-    "grunt-contrib-jshint": "~0.8.0",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-uglify": "~0.3.2",
-    "grunt-contrib-watch": "*",
-    "grunt-macreload": "*",
-    "grunt-css": "~0.5.4",
-    "grunt-markdown": "~0.5.0",
-    "grunt-angular-gettext": "^0.2.15"
-  }
+  "license": "MIT",
+  "name": "insight-auroracoin-ui",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LTEX-DEV/insight-auroracoin-ui-2019.git"
+  },
+  "version": "0.4.7"
 }
